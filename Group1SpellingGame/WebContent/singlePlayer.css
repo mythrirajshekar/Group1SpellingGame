@@ -1,0 +1,88 @@
+@CHARSET "ISO-8859-1";
+
+.singlePlayerScreen {
+	padding: 0px 200px;
+}
+.header {
+	font-size: 20px;
+	font-weight: bold;
+	color: grey;
+}
+
+.subheader {
+	font-size: 20px;
+	font-weight: bold;
+	color: grey;
+}
+
+.submitButton {
+	background-color: #CCCCCC;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.playerParentDiv {
+	display: inline-block;
+    width: 100%;
+}
+
+.playerDetails {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 250px;   
+    float:left; 
+}
+
+.emptySpace {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+.playerDetailsTable, .playerStatsTable, .playerRanksTable {
+	width: 150px;
+}
+
+.playerRanks {
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 250px;  
+    float: right;  
+}
+
+.spellingDiv {
+	padding-top: 20px;
+}
+
+.single-player-spelling, .single-player-translation {
+	padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.single-player-label {
+	font-weight: bold;
+	font-size: 15px;
+	color: #000;
+}
